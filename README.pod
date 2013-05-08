@@ -1,7 +1,7 @@
 
 =begin html
 
-<h1> getParam.js - Easily get a query string parameter </h1>
+<h1> getParam.js - Get a query string parameter </h1>
 <br />
 <br />
 <b>Usage</b>:
@@ -17,7 +17,7 @@ getParam('something');
 
 <b>License</b>:
 <br />
-Cronlib is release under the MIT license:
+Cronlib is release under the MIT license
 <br />
 <blockquote>
 www.opensource.org/licenses/MIT
