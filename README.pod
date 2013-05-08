@@ -1,0 +1,27 @@
+
+=begin html
+
+<h1> getParam.js - Easily get a query string parameter </h1>
+<br />
+<br />
+<b>Usage</b>:
+<br />
+Simply include the getParam.js script on your page and call it!
+<br />
+<blockquote>
+getParam('something');
+</blockquote>
+
+<br />
+<br />
+
+<b>License</b>:
+<br />
+Cronlib is release under the MIT license:
+<br />
+<blockquote>
+www.opensource.org/licenses/MIT
+</blockquote>
+
+=end html
+
