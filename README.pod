@@ -2,8 +2,9 @@
 =begin html
 
 <h1> getParam.js - Get a query string parameter </h1>
+
 <br />
-<br />
+
 <b>Usage</b>:
 <br />
 Simply include the getParam.js script on your page and call it!
@@ -12,7 +13,6 @@ Simply include the getParam.js script on your page and call it!
 getParam('something');
 </blockquote>
 
-<br />
 <br />
 
 <b>License</b>:
