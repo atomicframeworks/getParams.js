@@ -2,7 +2,7 @@
                         
        ##    ####     Copyright (c) - Kevin McGinty
      # _ #  ###        
-    #   #  #           AtomicFrameworks
+    #   #  #          AtomicFrameworks
     
 */
 
