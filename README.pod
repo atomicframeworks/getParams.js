@@ -17,7 +17,7 @@ getParam('something');
 
 <b>License</b>:
 <br />
-Cronlib is release under the MIT license
+getParam.js is release under the MIT license
 <br />
 <blockquote>
 www.opensource.org/licenses/MIT
