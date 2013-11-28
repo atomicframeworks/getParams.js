@@ -10,9 +10,11 @@
 // Get a query string parameter
 function getParam(param) {
     "use strict";
-    var query = new RegExp('[?|&]' + param + '(=)?(.*?)(&|#|$)'),
-        search = document.URL.match(query);
-    if (search) {
-        return decodeURIComponent(search[2]);
+    if (param) {
+        var query = new RegExp('[?|&]' + param + '(=)?(.*?)(&|#|$)'),
+            search = document.URL.match(query);
+        if (search) {
+            return decodeURIComponent(search[2]);
+        }
     }
 }
