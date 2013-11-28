@@ -5,11 +5,14 @@
     #   #  #            AtomicFrameworks
     
 */
+/*global document*/
 
+// Get a query string parameter
 function getParam(param) {
-  var query = new RegExp('[?|&]'+param+'(=)?(.*?)(&|#|$)');
-  var search = document.URL.match(query);
-  if (search){
-    return decodeURIComponent(search[2]);
-  }
+    "use strict";
+    var query = new RegExp('[?|&]' + param + '(=)?(.*?)(&|#|$)'),
+        search = document.URL.match(query);
+    if (search) {
+        return decodeURIComponent(search[2]);
+    }
 }
