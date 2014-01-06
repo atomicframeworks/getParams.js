@@ -9,6 +9,7 @@ This script will create the getParams function that can be used to get a single 
 
 Example URL `http://www.google.com?a=1&b=test&c`
 
+#### No argument
 Calling getParams() with no arguments will return an object containing key->value pairs for each query string parameter.
 If one of the parameters has no value it's value will return as undefined.
 
@@ -25,6 +26,7 @@ allParams will equal:
 }
 ```
 
+#### Array as argument
 Passing an array as the argument will return an array with containg the values for each parameter in the argument array.
 If one of the parameters does not exist it's value will return as null.
 
@@ -37,6 +39,7 @@ paramArray will equal:
 [1, 'test', undefined, null]
 ```
 
+#### Object as argument
 Passing an object as the argument will return an object with the parameters values set for the associated key.
 If one of the parameters does not exist it's value will return as null.
 
