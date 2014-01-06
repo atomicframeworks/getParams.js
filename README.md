@@ -13,7 +13,7 @@ This script will create the getParams function that can be used to get a single 
 Example URL `http://www.google.com?a=1&b=test&c`
 
 ##### No argument
-Calling getParams() with no arguments will return an object containing key->value pairs for each query string parameter.
+Calling getParams() with no argument will return an object containing key->value pairs for each query string parameter.
 If one of the parameters has no value it's value will return as undefined.
 
 ```js
