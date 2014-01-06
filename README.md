@@ -3,13 +3,16 @@ Get a query string parameter value, an object containing all parameters and valu
 
 ## Installation
 Include the source script in your html <br>
+```html
+<script src="getParams.js"></script>
+```
 This script will create the getParams function that can be used to get a single parameter value, a subset of parameters as either an array or object, or an object containg the keys and values for all params.
 
 ## Usage
 
 Example URL `http://www.google.com?a=1&b=test&c`
 
-#### No argument
+##### No argument
 Calling getParams() with no arguments will return an object containing key->value pairs for each query string parameter.
 If one of the parameters has no value it's value will return as undefined.
 
@@ -26,7 +29,7 @@ allParams will equal:
 }
 ```
 
-#### Array as argument
+##### Array as argument
 Passing an array as the argument will return an array with containg the values for each parameter in the argument array.
 If one of the parameters does not exist it's value will return as null.
 
@@ -39,7 +42,7 @@ paramArray will equal:
 [1, 'test', undefined, null]
 ```
 
-#### Object as argument
+##### Object as argument
 Passing an object as the argument will return an object with the parameters values set for the associated key.
 If one of the parameters does not exist it's value will return as null.
 
