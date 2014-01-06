@@ -23,7 +23,7 @@ var allParams = getParams();
 allParams will equal:
 ```js
 {
-    a: '1',
+    a: 1,
     b: 'test',
     c: undefined
 }
@@ -39,7 +39,7 @@ var paramArray = getParams(['a', 'b', 'c', 'd']);
 
 paramArray will equal:
 ```js
-['1', 'test', undefined, null]
+[1, 'test', undefined, null]
 ```
 
 ##### Object as argument
@@ -52,13 +52,13 @@ var paramObject = getParams({
     b: '1',
     c: 'c',
     d: true
-};
+});
 ```
 
 paramObject will equal:
 ```js
 {
-    a: '1',
+    a: 1,
     b: 'test', 
     c: undefined, 
     d: null

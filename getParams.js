@@ -15,6 +15,9 @@ var getParams = (function () {
             .split('&')
             .reduce(function (obj, param) {
                 param = param.split('=');
+                if ( ! isNaN(param[1]) ) {
+                    param[1] = parseFloat(param[1]);
+                }
                 obj[param[0]] = param[1];
                 return obj;
             }, {}),
